@@ -52,7 +52,7 @@ Our model obtains significant performance gains after training based on Qwen3-VL
 
 
 
-This highlights the  effectiveness and generalization ability of our unified training framework across diverse visual tasks.
+Besides, we also observe beneficial cross-task and cross-modality knowledge transfer, along with promising preliminary zero-shot generalization under unified training. This highlights the  effectiveness and generalization ability of our unified training framework across diverse visual tasks. 
 
 
 ## 🎥 Demo
