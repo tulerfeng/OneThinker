@@ -7,7 +7,7 @@
 ## 👀 About OneThinker
 
 <div align="center">
-  <img src="./assets/teaser.png" alt="Descriptive alt text" width="90%">
+  <img src="./assets/teaser.png" alt="Descriptive alt text" width="95%">
 </div>
 
 We introduce **OneThinker**, an all-in-one multimodal reasoning generalist that is **capable of thinking across a wide range of fundamental visual tasks within a single model**.
@@ -35,7 +35,7 @@ All code, models, and data are fully released.
 Our dataset covers both image and video modalities and spans a series of fundamental visual reasoning tasks, including rule-based QA, open-ended QA, captioning, spatial grounding, temporal grounding, spatio-temporal grounding, tracking, and segmentation
 
 <div align="center">
-  <img src="./assets/dataset.png" alt="Descriptive alt text" width="85%">
+  <img src="./assets/dataset.png" alt="Descriptive alt text" width="90%">
 </div>
 
 To enable effective SFT initialization for reasoning, we leverage a strong proprietary model, Seed1.5-VL  to produce CoT annotations.
@@ -47,7 +47,7 @@ Our model obtains significant performance gains after training based on Qwen3-VL
 
 
 <div align="center">
-  <img src="./assets/performance.png" alt="Descriptive alt text" width="80%">
+  <img src="./assets/performance.png" alt="Descriptive alt text" width="90%">
 </div>
 
 
