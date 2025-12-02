@@ -1,0 +1,59 @@
+### model
+model_name_or_path: Qwen/Qwen3-VL-8B-Instruct
+image_max_pixels: 802816
+video_max_pixels: 100352
+video_maxlen: 128
+video_fps: 2
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+# finetuning_type: lora
+# lora_rank: 64
+freeze_vision_tower: true  # choices: [true, false]
+freeze_multi_modal_projector: true  # choices: [true, false]
+deepspeed: LLaMA-Factory/examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
+
+### dataset
+dataset: onethinker_sft_image, onethinker_sft_video
+template: qwen3_vl
+dataset_dir: LLaMA-Factory/data
+use_fast_tokenizer: false
+cutoff_len: 16384
+overwrite_cache: true
+preprocessing_num_workers: 16
+preprocessing_batch_size: 32
+max_samples: 1000000
+tokenized_path: LLaMA-Factory/cache/onethinker_sft_tokenized
+
+### output
+output_dir: ./checkpoints
+logging_steps: 1
+save_steps: 1000
+save_only_model: false
+plot_loss: true
+overwrite_output_dir: true
+save_total_limit: 30
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 1
+learning_rate: 1.0e-5
+weight_decay: 1.0e-6
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.02
+bf16: true
+ddp_timeout: 180000000
+flash_attn: fa2
+
+### eval
+# val_size: 0.1
+# per_device_eval_batch_size: 1
+# eval_strategy: steps
+# eval_steps: 500
+
+report_to: wandb
+run_name: sft_cold_start_8b # optional
