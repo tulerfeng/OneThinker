@@ -20,7 +20,7 @@ MEDIA_PATH = ""
 # Whether the media is a video
 IS_VIDEO = False
 # Question text
-QUESTION_TEXT = "Pleae segment the shorter one."
+QUESTION_TEXT = ""
 
 # Problem type (must be a key in TYPE_TEMPLATE)
 # Examples:
