@@ -1,6 +1,6 @@
 # OneThinker: All-in-one Reasoning Model for Image and Video
 
-[[📖 Paper](https://arxiv.org/pdf/2503.21776)] [[🤗 OneThinker-8B-model](https://huggingface.co/OneThink/OneThinker-8B)] [🤗[OneThinker-SFT-model](https://huggingface.co/OneThink/OneThinker-SFT-Qwen3-8B)] [[🤗 OneThinker-train-data](https://huggingface.co/datasets/OneThink/OneThinker-train-data)] [🤗 [OneThinker-eval](https://huggingface.co/datasets/OneThink/OneThinker-eval)]
+[[📖 Paper](https://github.com/tulerfeng/OneThinker)] [[🤗 OneThinker-8B-model](https://huggingface.co/OneThink/OneThinker-8B)] [🤗[OneThinker-SFT-model](https://huggingface.co/OneThink/OneThinker-SFT-Qwen3-8B)] [[🤗 OneThinker-train-data](https://huggingface.co/datasets/OneThink/OneThinker-train-data)] [🤗 [OneThinker-eval](https://huggingface.co/datasets/OneThink/OneThinker-eval)]
 
 
 
