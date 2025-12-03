@@ -42,7 +42,7 @@ To enable effective SFT initialization for reasoning, we leverage a strong propr
 
 ## 🏆 Performance
 
-Our model obtains significant performance gains after training based on Qwen3-VL-Instruct-8B across diverse visual tasks. For examle, OneThinker-8B reaches 70.6% accuracy on MMMU, 64.3% on MathVerse, 54.9 J&F on ReasonVOS.
+Our model obtains significant performance gains after training based on Qwen3-VL-Instruct-8B across diverse visual tasks. For examle, OneThinker-8B reaches 70.6% accuracy on MMMU, 64.3% on MathVerse, 66.2% on VideoMMMU, 93.7 on Refcoco-testA, 54.9 J&F on ReasonVOS.
 
 
 
