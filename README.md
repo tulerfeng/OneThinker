@@ -188,9 +188,12 @@ If you want to use model-based rewards for open-ended problem, please use vllm t
 
 ## 🔮 Inference & Evaluation
 
+
 For the majority of tasks and benchmarks, we recommend using our provided json files and scripts for easier evaluation. 
 
 The json files can be downloaded at: [🤗 [OneThinker-eval](https://huggingface.co/datasets/OneThink/OneThinker-eval)]
+
+Download the trained model [[🤗 OneThinker-8B-model](https://huggingface.co/OneThink/OneThinker-8B)]
 
 Conduct evaluation on all benchmarks using the following scripts
 
