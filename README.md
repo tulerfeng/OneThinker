@@ -222,5 +222,10 @@ We sincerely appreciate the contributions of the open-source community. The rela
 If you find our work helpful for your research, please consider citing our work.   
 
 ```
-
+@article{feng2025onethinker,
+  title={OneThinker: All-in-one Reasoning Model for Image and Video},
+  author={Feng, Kaituo and Zhang, Manyuan and Li, Hongyu and Fan, Kaixuan and Chen, Shuang and Jiang, Yilei and Zheng, Dian and Sun, Peiwen and Zhang, Yiyuan and Sun, Haoze and others},
+  journal={arXiv preprint arXiv:2512.03043},
+  year={2025}
+}
 ```
