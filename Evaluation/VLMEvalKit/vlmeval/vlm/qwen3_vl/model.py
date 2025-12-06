@@ -125,7 +125,7 @@ class Qwen3VLChat(Qwen3VLPromptMixin, BaseModel):
                 # mm_encoder_tp_mode="data",
                 enable_expert_parallel=False,
                 seed=0,
-                gpu_memory_utilization=kwargs.get("gpu_utils", 0.7),
+                gpu_memory_utilization=0.8,
             )
         else:
             self.model = AutoModelForImageTextToText.from_pretrained(
