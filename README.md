@@ -187,7 +187,7 @@ If you want to use model-based rewards for open-ended problem, please use vllm t
 
 
 ## 🔮 Inference & Evaluation
-
+Since OneThinker-8B shares the same architecture as Qwen3-VL-8B, it naturally supports easy and efficient inference.
 
 For the majority of tasks and benchmarks, we recommend using our provided json files and scripts for easier evaluation. 
 
