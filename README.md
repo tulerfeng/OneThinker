@@ -218,7 +218,7 @@ python ./Evaluation/inference_single/inference.py
 
 ## Acknowledgements
 
-We sincerely appreciate the contributions of the open-source community. The related projects are as follows: [Video-R1](https://github.com/tulerfeng/Video-R1), [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1), [EasyR1](https://github.com/hiyouga/EasyR1), [verl](https://github.com/volcengine/verl),  [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)
+We sincerely appreciate the contributions of the open-source community. The related projects are as follows: [Video-R1](https://github.com/tulerfeng/Video-R1), [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1), [EasyR1](https://github.com/hiyouga/EasyR1), [verl](https://github.com/volcengine/verl),  [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory),  [sam2](https://github.com/facebookresearch/sam2), [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)
 
 ## Citations
 
